@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ALUNO_TURMA_FK" directorySegmentName="seg_0" id="A22A8EDB-504A-C244-DADA-93B5AC19F955">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>0777EC43-BC12-B59C-C7D9-979C1B95E5E4</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<sourcePk>A7B4B68B-7D7E-7724-DA5C-2D83D44F1EF4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>138577B1-AB48-D654-3304-972DDBD03E2A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>06862E82-0B69-426B-9274-2B88BB9F58B2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

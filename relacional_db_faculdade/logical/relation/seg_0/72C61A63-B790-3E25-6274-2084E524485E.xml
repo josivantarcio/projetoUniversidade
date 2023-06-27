@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TURMA_CURSO_FK" directorySegmentName="seg_0" id="72C61A63-B790-3E25-6274-2084E524485E">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>501CB5A0-3E0F-8EA0-7DCB-A75AC68E12D1</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<sourcePk>0CDEC07D-A022-3513-93E1-C45CA8BEF49E</sourcePk>
+<dominantRole>13EEB5FB-2E5A-6585-2375-95B545E22E4C</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13EEB5FB-2E5A-6585-2375-95B545E22E4C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>138577B1-AB48-D654-3304-972DDBD03E2A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

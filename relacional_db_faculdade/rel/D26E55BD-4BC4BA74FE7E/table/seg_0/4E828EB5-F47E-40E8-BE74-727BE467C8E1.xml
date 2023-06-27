@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E828EB5-F47E-40E8-BE74-727BE467C8E1" name="ENDERECO_ALUNO">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:05:41 UTC</createdTime>
+<generatorID>C9AEEEBA-DF85-5672-3C30-B23780190E55</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<splittedTableID>EDBD1948-404A-84F7-40B1-16F612426156</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_end_aluno" id="C7111104-34FE-9A50-2349-0902516C726F">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:07:19 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_aluno" id="606B9F4F-A6DC-0C16-7E67-1E1FF692557A">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:05:41 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14948164-91B5-8EBB-8006-EE265D9DE878" referredColumn="579F03BE-99C2-81BD-B69B-6793B9A2BEAB"/>
+</associations>
+</Column>
+<Column name="TIPO_LOGRADOURO_ID_tipo_logra" id="0385B352-5ED0-D29C-A888-D981BA5D4E10">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:15:01 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7A90E1F-5623-E376-217B-9B1A5892C096" referredColumn="E0FC1451-E2A0-458A-EE99-11C81F66DEE1"/>
+</associations>
+</Column>
+<Column name="UF_CIDADE_ID_end_aluno" id="707362B2-0CC7-B3C9-CEB9-1073A514ABD8">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:24:15 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="615126FB-28E6-CD86-28C2-B327ACAE4C9B" referredColumn="334BC00D-B0CE-B885-1D6D-5DB5ED71061C"/>
+</associations>
+</Column>
+<Column name="UF_CIDADE_ID_uf_cidade" id="84983FA8-1DED-E469-D5FA-B8624940A984">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:24:15 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="615126FB-28E6-CD86-28C2-B327ACAE4C9B" referredColumn="9F1B0522-307F-3CFB-6F1B-8A4D9DEE9875"/>
+</associations>
+</Column>
+<Column name="lagradouro" id="CE398E06-E934-F538-EE35-2E95AC373E2C">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>2B93EC4C-40F9-6970-81ED-32C65106A010</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="AE8F9601-8012-6887-CB5D-6C21E819A82E">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>FB1D11B5-FA66-BDE4-CCA3-00602DEE81FD</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="48A8C14F-8688-A619-9027-ABA4DE80BC4F">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>A859A32F-1BC1-955F-66D3-C363C36CD3FC</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="08902E5E-E5C3-82AD-BE11-769521A27051">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:18:13 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="9FDB3709-E7FA-C54B-9F8D-D2EC694642AB">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>2AF50A90-D031-719B-D10B-15F0417C1CF7</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="793CF837-84E1-BF38-BC97-0EA8702ED37D" name="ENDERECO_ALUNO_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:05:41 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606B9F4F-A6DC-0C16-7E67-1E1FF692557A"/>
+<colUsage columnID="C7111104-34FE-9A50-2349-0902516C726F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8ADE1F04-505D-A156-3137-E05751A20FF7" name="END_ALU_ALU_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:05:41 UTC</createdTime>
+<generatorID>9C741FF3-7882-FF44-570D-562653AA0CDC</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606B9F4F-A6DC-0C16-7E67-1E1FF692557A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74C0EADA-1E8D-4B3A-7615-342B4C0E5E81" name="END_ALU_TP_LOGRA_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:15:01 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0385B352-5ED0-D29C-A888-D981BA5D4E10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A46C7F56-AA15-518D-E126-AD5E52388A66" name="END_ALU_UF_CID_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:24:15 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707362B2-0CC7-B3C9-CEB9-1073A514ABD8"/>
+<colUsage columnID="84983FA8-1DED-E469-D5FA-B8624940A984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

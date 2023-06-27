@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CURSO_DISCIPLINA_CURSO_FK" directorySegmentName="seg_0" id="CF324C1D-071F-054E-C026-676D1FD98DDB">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>F7F879E0-6574-6A12-BBCD-E0E49A218621</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<sourcePk>0CDEC07D-A022-3513-93E1-C45CA8BEF49E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13EEB5FB-2E5A-6585-2375-95B545E22E4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E7F9B7D9-C360-389B-5591-FED89D3AACC2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

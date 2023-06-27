@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROF_DISC_DISC_FK" directorySegmentName="seg_0" id="5652F844-2F25-484B-15D7-50DDE381FD1F">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>FFF76D2D-0029-FDA3-7C03-97854D8B90E7</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<sourcePk>C813E584-4C44-6C24-AD4F-36889ECB13DA</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4B24093-CF95-3AC5-4800-CEC83EE6D4CD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F66B870-E70B-6796-ACCE-EA90A99E7887</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

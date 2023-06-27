@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B89C16C-9DCB-282F-AC29-203B478FAFE0" name="TELEFONE_ALUNO">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:54:49 UTC</createdTime>
+<generatorID>C9AEEEBA-DF85-5672-3C30-B23780190E55</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<splittedTableID>EDBD1948-404A-84F7-40B1-16F612426156</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tel_aluno" id="5C02257D-8D15-4393-3A0F-FF84A141F7CF">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:56:54 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_aluno" id="BC645D29-3E39-3618-A167-03232CC3B81D">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:54:49 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC5C892C-397D-700E-697D-B80CA0451BCC" referredColumn="579F03BE-99C2-81BD-B69B-6793B9A2BEAB"/>
+</associations>
+</Column>
+<Column name="TIPO_TELEFONE_ID_tipo_telefone" id="38095CDC-10E8-06C0-441E-1558032DEB1E">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:01:01 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C8071C5-DD8D-1483-4D8F-5FF2B3C54AA5" referredColumn="8B2B378D-9D40-7EFE-2C38-BFB173FD008A"/>
+</associations>
+</Column>
+<Column name="numTelefone_aluno" id="FA9AFDF6-BB58-0FDB-F375-F8111064E512">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:32:27 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CCE5123-1B5F-7D36-E7D0-9E6E6195E618" name="TELEFONE_ALUNO_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:54:49 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC645D29-3E39-3618-A167-03232CC3B81D"/>
+<colUsage columnID="5C02257D-8D15-4393-3A0F-FF84A141F7CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF355420-702D-3BC3-3F56-2DB075872422" name="TELEFONE_ALUNO_ALUNO_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:54:49 UTC</createdTime>
+<generatorID>9C741FF3-7882-FF44-570D-562653AA0CDC</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC645D29-3E39-3618-A167-03232CC3B81D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54ACD26D-1334-2C0A-0938-321BE910ED77" name="TELEF_ALUNO_TP_FONE_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:01:01 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38095CDC-10E8-06C0-441E-1558032DEB1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

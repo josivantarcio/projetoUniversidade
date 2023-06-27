@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="END_PROF_UF_CIDADE_FK" directorySegmentName="seg_0" id="DE1315DF-FF4C-EE69-439C-F6580952B342">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>48568811-41D7-31EE-C3FD-479CA23BFE22</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9F93B0A-7659-C8C9-C435-24935ED7521B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F1E3DB81-916E-ADA1-8AF7-4FC661BC05FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

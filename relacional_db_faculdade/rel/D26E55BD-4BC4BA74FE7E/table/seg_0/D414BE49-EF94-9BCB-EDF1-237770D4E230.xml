@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D414BE49-EF94-9BCB-EDF1-237770D4E230" name="END_PROF">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 20:05:05 UTC</createdTime>
+<generatorID>5D9324DF-E37D-A604-86F7-5006B639806B</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<splittedTableID>AC5B643C-6662-5052-7A3C-B6035D15FB67</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_prof" id="4F4B681F-E774-F134-DF32-8A1DB24D8D8D">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 20:05:05 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0AEC4D1-B7FD-792E-45C8-240FA7DF2280" referredColumn="3AA48631-D0B1-01BF-A0A1-AA4D38D13913"/>
+</associations>
+</Column>
+<Column name="UF_CIDADE_ID_end_aluno" id="8AE48697-5C0D-50F9-553B-97D871C426BA">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 20:07:12 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48568811-41D7-31EE-C3FD-479CA23BFE22" referredColumn="334BC00D-B0CE-B885-1D6D-5DB5ED71061C"/>
+</associations>
+</Column>
+<Column name="UF_CIDADE_ID_uf_cidade" id="A59FBEA2-9AC3-4B0C-BB02-79FC267B6057">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 20:07:12 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48568811-41D7-31EE-C3FD-479CA23BFE22" referredColumn="9F1B0522-307F-3CFB-6F1B-8A4D9DEE9875"/>
+</associations>
+</Column>
+<Column name="TIPO_LOGRADOURO_ID_tipo_logra" id="0593708A-02D7-CC1B-22F6-699C87C5B4A2">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 22:16:05 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00245537-6E1D-129F-A764-3850965B2760" referredColumn="E0FC1451-E2A0-458A-EE99-11C81F66DEE1"/>
+</associations>
+</Column>
+<Column name="end_logra" id="68E175EF-F59E-2E80-F309-E291A82E651D">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 15:05:16 UTC</createdTime>
+<generatorID>2B93EC4C-40F9-6970-81ED-32C65106A010</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_num" id="9852D029-4A35-6F79-95DA-6A7D53C4F58F">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 15:05:16 UTC</createdTime>
+<generatorID>FB1D11B5-FA66-BDE4-CCA3-00602DEE81FD</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_bairro" id="012088FC-39AB-484B-E279-EF77F7124595">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 15:05:16 UTC</createdTime>
+<generatorID>A859A32F-1BC1-955F-66D3-C363C36CD3FC</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_cep" id="0E9BFF37-F07C-2401-7247-8983121B0876">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 15:05:16 UTC</createdTime>
+<generatorID>2AF50A90-D031-719B-D10B-15F0417C1CF7</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32FBB354-A885-592F-63EB-2CB2BA27AB80" name="END_PROF_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 20:05:05 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F4B681F-E774-F134-DF32-8A1DB24D8D8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC9D33ED-BF6D-D7EE-515A-CC923C9E2039" name="END_PROF_PROFESSOR_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 20:05:05 UTC</createdTime>
+<generatorID>5EA7211E-CFC7-FC23-0624-1067B3F6DBC8</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F4B681F-E774-F134-DF32-8A1DB24D8D8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A77EF79-9261-1051-0D2E-6F0CF68D9185" name="END_PROF_UF_CIDADE_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 20:07:12 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AE48697-5C0D-50F9-553B-97D871C426BA"/>
+<colUsage columnID="A59FBEA2-9AC3-4B0C-BB02-79FC267B6057"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF22969E-1A54-B652-9815-B9419143B877" name="END_PROF_TIPO_LOGRADOURO_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 22:16:05 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0593708A-02D7-CC1B-22F6-699C87C5B4A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7A90E1F-5623-E376-217B-9B1A5892C096" containerWithKeyObject="4E828EB5-F47E-40E8-BE74-727BE467C8E1" localFKIndex="74C0EADA-1E8D-4B3A-7615-342B4C0E5E81" name="END_ALU_TP_LOGRA_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:15:01 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<referredTableLongName>TIPO_LOGRADOURO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>953D00EE-0EA3-703A-ED0B-B184A3B675C3</referredTableID>
+<keyObject>2337E7A3-111C-1038-0FE5-792F142ADEF6</keyObject>
+<referredKeyID>2337E7A3-111C-1038-0FE5-792F142ADEF6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_tipo_logra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

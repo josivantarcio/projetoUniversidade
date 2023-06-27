@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TELEF_ALUNO_TP_FONE_FK" directorySegmentName="seg_0" id="50AA6FB7-BC4F-E076-35BA-250934C36680">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>3C8071C5-DD8D-1483-4D8F-5FF2B3C54AA5</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<sourcePk>40B6CA0B-C4DC-9F48-4C86-BFF91073FEC3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71E77399-FE41-3115-4F1E-7D7F85912889</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43E7C357-1A05-773E-A363-7A11FE73AA89</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

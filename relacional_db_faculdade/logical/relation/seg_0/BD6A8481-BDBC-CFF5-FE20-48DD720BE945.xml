@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="END_ALU_TP_LOGRA_FK" directorySegmentName="seg_0" id="BD6A8481-BDBC-CFF5-FE20-48DD720BE945">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>E7A90E1F-5623-E376-217B-9B1A5892C096</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<sourcePk>08C100BD-D210-3F37-09FE-F2D3D6135CFB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C7AFBBDD-A789-9600-21F9-BD97D779514D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2DEB4A22-4ADD-F31C-B557-693B6AEF573D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

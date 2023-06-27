@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6349E31-35BB-0E6A-A454-C7CF75293CB0" name="DISCIPLINA">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>E86BFB59-5617-000F-42D6-2D1385615216</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_disciplina" id="EF7A2AF2-FAC6-40B1-980F-81DC727ACC4D">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>66FFE420-8EA6-AB8A-2ADA-141D034F037F</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_ID_depart" id="F3E7D4B9-A1AE-6452-F251-A37DB8BC99A4">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>5D2B142D-6AA2-228F-AEEC-F6B1CE26E650</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC394570-29F5-F97B-7BCF-C937DB177EEE" referredColumn="61FCA373-54E6-E8EF-97F9-9884D9CB109B"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_ID_disciplina" id="E82EED54-F12F-E656-54FA-68D02CB06D8C">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:36:13 UTC</createdTime>
+<generatorID>209626A5-84DC-136F-DFCC-949C03F9B673</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93965681-4AEC-9DD2-A51F-90FEC14048E8" referredColumn="EF7A2AF2-FAC6-40B1-980F-81DC727ACC4D"/>
+</associations>
+</Column>
+<Column name="nome_disciplina" id="42F6B8CF-8EE4-A8FE-9173-16E9B3BE9BC8">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>25F6AD15-736E-A9F8-4159-DD6486183FA3</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao_disciplina" id="C45383CB-0A60-50B7-405C-29183C4BF984">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>AE48B0F4-97F1-925E-0611-A4D82C7FFCE6</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numAluno_disciplina" id="4731495B-0DE4-84F3-BF17-1997CF5342CC">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>B82BD668-9B3C-9F63-E1F1-636CF452EF84</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargaHoraria_disciplina" id="33C4BCB5-CE9D-3FCD-C3DA-0E7407FDB0C1">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>8A3EDE47-A2F2-F229-C6D6-AA05BD385762</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BF609C3-92B6-8D31-1AA2-FB6AAE63C615" name="DISCIPLINA_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>95180AA9-5DB5-294D-0A44-800B981C0038</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF7A2AF2-FAC6-40B1-980F-81DC727ACC4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFAAC5CE-8896-4F0A-C92C-06D717544254" name="DISCIPLINA_DEPARTAMENTO_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>ECCF1B2D-4C22-747A-6E37-5397DA7DDE9A</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3E7D4B9-A1AE-6452-F251-A37DB8BC99A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9D5571C-8608-843F-9D8A-BEC65ED65FA4" name="DISCIPLINA_DISCIPLINA_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 18:36:22 UTC</createdTime>
+<generatorID>95180AA9-5DB5-294D-0A44-800B981C0038</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E82EED54-F12F-E656-54FA-68D02CB06D8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

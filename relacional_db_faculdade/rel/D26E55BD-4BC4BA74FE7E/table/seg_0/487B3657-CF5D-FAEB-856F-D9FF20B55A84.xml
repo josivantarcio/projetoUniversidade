@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="487B3657-CF5D-FAEB-856F-D9FF20B55A84" name="CURSO">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>C07D3E20-5261-6E39-EC68-AB3FCB20EE8D</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_curso" id="37CF1E1F-A03B-3FC5-8A34-6ECBF875F4AF">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>DE8ED7F2-C7AF-E43D-530A-990CEA2E7814</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_ID_depart" id="56E67D42-F985-BC48-0A4E-8F3FE54E1F87">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>CF22120A-D009-3696-E585-889876750E06</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D33F3D3F-BA25-A567-6B1F-32672A18D3A8" referredColumn="61FCA373-54E6-E8EF-97F9-9884D9CB109B"/>
+</associations>
+</Column>
+<Column name="nome_curso" id="6B638DA2-79BA-8F74-3932-F8BC7B305F09">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>DBD2BE41-4746-CC23-3F99-0EF8FA782D0A</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07B7022D-7318-A24E-1DAB-5D21931E139B" name="CURSO_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>A1EE31D8-78A1-E47E-F3D0-E7ABE1021306</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37CF1E1F-A03B-3FC5-8A34-6ECBF875F4AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="132FB0F8-2A8B-759C-C768-07E8615AAF09" name="CURSO_DEPARTAMENTO_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>B9F61787-36D4-76F8-313A-992EFDF0F618</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56E67D42-F985-BC48-0A4E-8F3FE54E1F87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2999BB3E-B359-DA91-A201-AE8D8055CC84" name="DISCIPLINA_HISTORICO">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>683401DF-70DE-753F-44C6-98E0C87AE41B</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HISTORICO_ID_historico" id="26173229-B505-BF24-657A-8781D797BA29">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>4806BE2A-A0CF-69E4-3604-77080471B3CC</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0C95753-909D-E564-A8DF-65F7F345B338" referredColumn="5A9D7176-5DCE-33CA-CB76-561BF048D26E"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_ID_disciplina" id="31CEA457-971D-1E98-E4DF-D832B8154D6D">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>DDE3FEB2-E20F-1C57-C3AE-FFE613D1514E</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6A19EB7-D3FE-999E-12FC-3E575134167C" referredColumn="EF7A2AF2-FAC6-40B1-980F-81DC727ACC4D"/>
+</associations>
+</Column>
+<Column name="nota" id="CEB87E95-1A6C-DDCE-61DB-857FF2671261">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>059B615F-1D26-53A8-C93E-07E39F7AE502</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="frequencia" id="520E297B-20F0-5882-7F68-2F560FD40F66">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>94FBEA41-7ABE-BE5A-7F5C-9AFCEF197265</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EE2BEA9-7518-5E2C-66A6-1A060D049315" name="DISCIPLINA_HISTORICO_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>B7DB68F8-CBEE-FEA6-F9FF-4BD31C5FB44F</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26173229-B505-BF24-657A-8781D797BA29"/>
+<colUsage columnID="31CEA457-971D-1E98-E4DF-D832B8154D6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="160E7761-2E09-816F-3352-C1A3C0E0BA36" name="DISC_HIST_DISC_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>2A57CBF9-4B94-A720-3AC0-19718B3E3515</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31CEA457-971D-1E98-E4DF-D832B8154D6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D49E02A-B021-94B6-3529-3FF10403755F" name="DISC_HIST_HIST_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>681B6BD4-8E15-38D4-08A5-A25D8C23E24A</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26173229-B505-BF24-657A-8781D797BA29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

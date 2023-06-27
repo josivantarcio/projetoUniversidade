@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CA16B1D-5701-9A28-593A-6494725BA5DC" name="TURMA">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>E503CCA9-0708-CE95-DD8F-1939FF2EFB6D</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_turma" id="4AA72544-BBD3-E0FE-B331-DCE3D52CDDD2">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>0F4BBB19-926A-1AB8-C604-CB6A7075CBA2</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURSO_ID_curso" id="FC34535A-ADE6-F1A6-8940-12C4D3BD6063">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>B7053190-C150-89F6-6C26-466E2D632216</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="501CB5A0-3E0F-8EA0-7DCB-A75AC68E12D1" referredColumn="37CF1E1F-A03B-3FC5-8A34-6ECBF875F4AF"/>
+</associations>
+</Column>
+<Column name="periodo_turma" id="A138867A-641A-7A32-E335-6347093CF9A9">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>DEF5AA51-E10E-C11C-F857-2D60EA1A4308</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numAlunos_turma" id="7A215170-AC5A-C778-8805-BF42D73D969C">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>153F7AFE-9FBA-9CBB-3857-31FC314993A5</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataInicio_turma" id="E8F3427A-D3A9-9EEC-E4C9-F572A467F8CE">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>754C5779-BF47-C724-40E1-73CB2CAC9FC7</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataFim_turma" id="97807736-93AC-F3DE-B1EF-46B103E685DC">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>21D91FCC-FAC7-6408-FDFD-29E3DB9EE15E</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7FD4B98-C836-62BC-F856-05576B841113" name="TURMA_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>A20E581F-E4A4-54A7-6A03-66F739CA58D1</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AA72544-BBD3-E0FE-B331-DCE3D52CDDD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EF94A05-1467-D0BE-AFB9-99E1BB9BDD5D" name="TURMA__IDX">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3C80BB29-4B60-2A74-3FE6-4FE397B8FAF1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FC34535A-ADE6-F1A6-8940-12C4D3BD6063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="116BFDD0-C210-B4DC-F83A-84D952F2C2D6" name="TURMA_CURSO_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>3C80BB29-4B60-2A74-3FE6-4FE397B8FAF1</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC34535A-ADE6-F1A6-8940-12C4D3BD6063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

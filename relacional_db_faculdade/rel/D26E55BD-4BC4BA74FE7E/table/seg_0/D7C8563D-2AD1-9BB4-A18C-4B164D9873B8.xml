@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7C8563D-2AD1-9BB4-A18C-4B164D9873B8" name="ALUNO_DISCIPLINA">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>CB53AFC6-7F5C-1168-E416-EBA8624C5485</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ALUNO_ID_aluno" id="4E003A59-A0A8-5BC6-B63F-38CDF6DF9141">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>5C34441D-AF80-D023-69B4-05FEC008B5AF</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2D886F5-722D-701F-C040-A1B6B64613B5" referredColumn="579F03BE-99C2-81BD-B69B-6793B9A2BEAB"/>
+</associations>
+</Column>
+<Column name="DISCIPLINA_ID_disciplina" id="08A517EF-6617-28C9-B195-D7BABA41EA60">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>B783CCCB-3BD1-07CB-079E-7582C2BF8845</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D796041D-0105-5E66-314C-9BCBA6F7CB27" referredColumn="EF7A2AF2-FAC6-40B1-980F-81DC727ACC4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACE4B3B3-42D8-0B49-E424-DC6A3496B1A4" name="ALUNO_DISCIPLINA_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>79370A36-B594-8DEA-935F-6159F9C838E5</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E003A59-A0A8-5BC6-B63F-38CDF6DF9141"/>
+<colUsage columnID="08A517EF-6617-28C9-B195-D7BABA41EA60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32247C5E-FD5D-1A5C-3CE9-E274EE82A1C1" name="ALUNO_DISCIPLINA_ALUNO_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>2CFD6C22-926D-EA36-A287-90B3ED064057</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E003A59-A0A8-5BC6-B63F-38CDF6DF9141"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7434B843-93E7-4F3C-14F0-279E6963CD52" name="ALUNO_DISCIPLINA_DISCIPLINA_FK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>7FBC988B-AD10-827F-63A7-3224FCDA432F</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08A517EF-6617-28C9-B195-D7BABA41EA60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

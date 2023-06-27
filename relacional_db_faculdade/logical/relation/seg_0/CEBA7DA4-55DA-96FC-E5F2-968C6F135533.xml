@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="END_ALU_UF_CID_FK" directorySegmentName="seg_0" id="CEBA7DA4-55DA-96FC-E5F2-968C6F135533">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 21:32:36 UTC</createdTime>
+<generatorID>615126FB-28E6-CD86-28C2-B327ACAE4C9B</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<engineerTo>
+<item key="D26E55BD-7A2A-09AF-F8D6-4BC4BA74FE7E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9F93B0A-7659-C8C9-C435-24935ED7521B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2DEB4A22-4ADD-F31C-B557-693B6AEF573D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

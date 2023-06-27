@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94A12156-55F3-FB24-9E23-2B776ED51337" name="UF_CIDADE">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:20:57 UTC</createdTime>
+<generatorID>C9AEEEBA-DF85-5672-3C30-B23780190E55</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<splittedTableID>4E828EB5-F47E-40E8-BE74-727BE467C8E1</splittedTableID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_uf_cidade" id="9F1B0522-307F-3CFB-6F1B-8A4D9DEE9875">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:23:09 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_end_aluno" id="334BC00D-B0CE-B885-1D6D-5DB5ED71061C">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:20:57 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="F8212578-2CF2-FED7-6D04-DC47A3FD68E3">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>1EA79B80-F83B-F942-C6A3-B78D4F243816</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="E709FED0-27B7-5368-40CA-A8DB9CC5B419">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 14:21:40 UTC</createdTime>
+<generatorID>6A79EA89-4CAC-0E9C-0C07-150F6DD10BF2</generatorID>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16A38FA4-DA2B-C7F8-1158-E23D818DA9F9" name="UF_CIDADE_PK">
+<createdBy>josiv</createdBy>
+<createdTime>2023-06-27 19:20:57 UTC</createdTime>
+<ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="334BC00D-B0CE-B885-1D6D-5DB5ED71061C"/>
+<colUsage columnID="9F1B0522-307F-3CFB-6F1B-8A4D9DEE9875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
