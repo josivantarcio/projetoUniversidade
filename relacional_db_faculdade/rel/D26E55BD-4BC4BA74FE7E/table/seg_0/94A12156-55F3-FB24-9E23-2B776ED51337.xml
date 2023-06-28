@@ -17,17 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ID_end_aluno" id="334BC00D-B0CE-B885-1D6D-5DB5ED71061C">
-<createdBy>josiv</createdBy>
-<createdTime>2023-06-27 19:20:57 UTC</createdTime>
-<ownerDesignName>relacional_db_faculdade</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cidade" id="F8212578-2CF2-FED7-6D04-DC47A3FD68E3">
@@ -66,7 +56,6 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="334BC00D-B0CE-B885-1D6D-5DB5ED71061C"/>
 <colUsage columnID="9F1B0522-307F-3CFB-6F1B-8A4D9DEE9875"/>
 </indexColumnUsage>
 </ind_PK_UK>

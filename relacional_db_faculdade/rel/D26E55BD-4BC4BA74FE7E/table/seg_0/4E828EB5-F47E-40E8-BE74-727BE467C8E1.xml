@@ -17,6 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ID_aluno" id="606B9F4F-A6DC-0C16-7E67-1E1FF692557A">
@@ -45,20 +46,6 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="E7A90E1F-5623-E376-217B-9B1A5892C096" referredColumn="E0FC1451-E2A0-458A-EE99-11C81F66DEE1"/>
-</associations>
-</Column>
-<Column name="UF_CIDADE_ID_end_aluno" id="707362B2-0CC7-B3C9-CEB9-1073A514ABD8">
-<createdBy>josiv</createdBy>
-<createdTime>2023-06-27 19:24:15 UTC</createdTime>
-<ownerDesignName>relacional_db_faculdade</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="615126FB-28E6-CD86-28C2-B327ACAE4C9B" referredColumn="334BC00D-B0CE-B885-1D6D-5DB5ED71061C"/>
 </associations>
 </Column>
 <Column name="UF_CIDADE_ID_uf_cidade" id="84983FA8-1DED-E469-D5FA-B8624940A984">
@@ -181,7 +168,6 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="707362B2-0CC7-B3C9-CEB9-1073A514ABD8"/>
 <colUsage columnID="84983FA8-1DED-E469-D5FA-B8624940A984"/>
 </indexColumnUsage>
 </ind_PK_UK>

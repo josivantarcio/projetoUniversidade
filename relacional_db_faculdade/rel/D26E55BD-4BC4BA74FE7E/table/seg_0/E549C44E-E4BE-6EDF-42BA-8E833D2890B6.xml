@@ -13,10 +13,12 @@
 <createdTime>2023-06-27 14:21:40 UTC</createdTime>
 <generatorID>0EB67CD2-6946-3406-2FC6-152B9984156A</generatorID>
 <ownerDesignName>relacional_db_faculdade</ownerDesignName>
+<sourceType>System</sourceType>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="nome_depart" id="47EE7ED0-EB89-D5FD-A96C-F6E2B79E6B9C">

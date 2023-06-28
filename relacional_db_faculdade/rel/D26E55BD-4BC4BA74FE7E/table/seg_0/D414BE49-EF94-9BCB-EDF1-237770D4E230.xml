@@ -19,23 +19,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="F0AEC4D1-B7FD-792E-45C8-240FA7DF2280" referredColumn="3AA48631-D0B1-01BF-A0A1-AA4D38D13913"/>
-</associations>
-</Column>
-<Column name="UF_CIDADE_ID_end_aluno" id="8AE48697-5C0D-50F9-553B-97D871C426BA">
-<createdBy>josiv</createdBy>
-<createdTime>2023-06-27 20:07:12 UTC</createdTime>
-<ownerDesignName>relacional_db_faculdade</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="48568811-41D7-31EE-C3FD-479CA23BFE22" referredColumn="334BC00D-B0CE-B885-1D6D-5DB5ED71061C"/>
 </associations>
 </Column>
 <Column name="UF_CIDADE_ID_uf_cidade" id="A59FBEA2-9AC3-4B0C-BB02-79FC267B6057">
@@ -150,7 +137,6 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8AE48697-5C0D-50F9-553B-97D871C426BA"/>
 <colUsage columnID="A59FBEA2-9AC3-4B0C-BB02-79FC267B6057"/>
 </indexColumnUsage>
 </ind_PK_UK>
